@@ -2,4 +2,8 @@
   package="com.dsi.facebook_audience_network">
   <application
         android:hardwareAccelerated="true"/>
+    <meta-data
+      android:name="io.flutter.embedded_views_preview"
+      android:value="true" />
+  </application>
 </manifest>

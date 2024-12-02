@@ -26,7 +26,7 @@ android {
     
 
     compileSdkVersion 28
-    namespace "com.dsi.facebook_audience_network"
+    namespace 'com.dsi.facebook_audience_network'
 
 
     defaultConfig {
