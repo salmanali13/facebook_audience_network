@@ -21,7 +21,12 @@ rootProject.allprojects {
 
 apply plugin: 'com.android.library'
 
+
 android {
+    if (project.android.hasProperty("namespace")) {
+        namespace("com.dsi.facebook_audience_network")
+    }
+
     compileSdkVersion 28
 
     defaultConfig {
